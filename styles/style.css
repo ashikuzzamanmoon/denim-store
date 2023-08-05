@@ -1,15 +1,20 @@
-* {}
-.header{
+* {
+    margin: 0;
+}
+
+.header {
     background-image: url('../images/banner-bg.png');
     background-repeat: no-repeat;
-    width: 1250px;
-    
+    width: auto;
+    height: auto;
 }
-.nav{
+
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .nav-images {
     display: flex;
     align-items: center;
@@ -26,7 +31,87 @@
     height: 23.632px;
 }
 
-.nav-group-icon{
+.nav-group-icon {
     width: 149.925px;
-height: 15.887px;
+    height: 15.887px;
+}
+
+/* banner */
+.banner-subtitle {
+    background-color: #012A4A;
+    color: #FFFFFF;
+    width: 387px;
+    height: 54px;
+    border-radius: 25px 0;
+}
+
+.banner-subtitle p {
+    color: #FFF;
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.banner-title {
+    width: 650px;
+}
+
+.banner-title p {
+    color: #003B60;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-price {}
+
+.total-price-text {
+    color: #012A4A;
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner-price-text{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.middle-mark{
+    color: #608AAB;
+font-family: Li Ador Noirrit;
+font-size: 20px;
+font-weight: 400;
+text-decoration: line-through;
+}
+.price-text{
+    color: #012A4A;
+font-family: Li Ador Noirrit;
+font-size: 50px;
+font-weight: 700;
+}
+.btn-primary{
+    background-color: #F0E615;
+    border: none;
+    border-radius: 25px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+}
+.btn-primary p{
+    color: #092E67;
+font-family: Li Niladri Rongtuli Unicode;
+font-size: 20px;
+font-weight: 400;
+}
+.banner-price-description{
+    color: #012A4A;
+font-family: Li Ador Noirrit;
+font-size: 25px;
+font-weight: 400;
 }
