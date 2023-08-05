@@ -1,0 +1,32 @@
+* {}
+.header{
+    background-image: url('../images/banner-bg.png');
+    background-repeat: no-repeat;
+    width: 1250px;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-images {
+    display: flex;
+    align-items: center;
+    gap: 7.79px;
+}
+
+.nav-icon {
+    width: 84.235px;
+    height: 84.681px;
+}
+
+.nav-icon-1 {
+    width: 145.051px;
+    height: 23.632px;
+}
+
+.nav-group-icon{
+    width: 149.925px;
+height: 15.887px;
+}
