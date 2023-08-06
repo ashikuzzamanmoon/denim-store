@@ -184,12 +184,14 @@
 .description-point p {
     color: #003B60;
     font-family: Manrope;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
-.denim-img{
+
+.denim-img {
     margin-top: -1000px;
 }
+
 .denim-img img {
     width: 100%;
 }
@@ -211,15 +213,18 @@
     font-family: Li Niladri Rongtuli Unicode;
     font-size: 40px;
 }
-.jeans-size{
+
+.jeans-size {
     position: relative;
     left: 620px;
     top: 400px;
 }
-.frame-images{
+
+.frame-images {
     display: flex;
     gap: 25px;
 }
+
 .frame-img {
     width: 99px;
     height: 101px;
@@ -247,4 +252,245 @@
     top: 760px;
     margin: 0 auto;
 }
+
 /* product details end */
+/* jeans feature section start */
+.jeans-features {
+    background-color: #F0F9FF;
+    padding-bottom: 160px;
+}
+
+.jeans-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 0;
+}
+
+.jeans-card {
+    width: 299px;
+    height: 340px;
+    background-color: #FFF;
+    border-radius: 30px 0;
+}
+
+.jeans-card-title {
+    background-color: #003B60;
+    border: none;
+    border-radius: 30px 0;
+    text-align: center;
+    gap: 8px;
+    padding: 15px 20px;
+    margin: 5px 10px 5px 10px;
+}
+
+.jeans-card img {
+    margin: 20px;
+    height: 200px;
+}
+
+.jeans-card p {
+    color: #FFF;
+    font-family: Li Ador Noirrit;
+    font-size: 18px;
+    height: 40px;
+}
+
+.dotted-line {
+    color: #003B60;
+    width: 900px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.jeans-features-title {
+    color: #003B60;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 38px;
+    margin: 40px 200px 20px 300px;
+}
+
+.jeans-features-columns {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.features-point {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.features-point p {
+    color: #003B60;
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+}
+
+.bunch-jeans-img {
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.bunch-jeans {
+    width: 90%;
+    border-radius: 100px 0;
+    margin-top: -120px;
+
+}
+
+.btns-on-jeans-img {
+    margin-top: -70px;
+}
+
+.ellipse {
+    position: relative;
+    bottom: 400px;
+    left: 600px;
+}
+
+.play-btn {
+    position: relative;
+    bottom: 418px;
+    left: 487px;
+}
+
+.some-instructions {
+    text-align: center;
+    color: #003B60;
+}
+
+.some-instructions h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.some-instructions p {
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.instructions-points {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jeans-peice {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.jeans-peice h2 {
+    position: relative;
+    bottom: 350px;
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+}
+
+.jeans-peice h4 {
+    position: relative;
+    bottom: 335px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.jeans-peice-img {
+    align-items: center;
+    text-align: center;
+    width: 700px;
+}
+
+.btn-secondary-div {
+    display: inline-flex;
+    position: relative;
+    bottom: 300px;
+
+}
+
+.btn-secondary {
+    background-color: #F0E615;
+    border: none;
+    border-radius: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 40px;
+}
+
+.btn-secondary p {
+    color: #092E67;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 25px;
+}
+.owner-section{
+    background-color: #F0F9FF;
+    margin-top: -450px;
+}
+.owner-cards{
+    padding-top: 400px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.owner-card{
+    width: 250px;
+    height: 200px;
+    background-color: #FFF;
+    border-radius: 45px 0;
+    text-align: center;
+    padding: 20px;
+}
+.owner-img{
+    position: relative;
+    bottom: 80px;
+}
+.owner-details{
+    margin-top: -60px;
+    color: #003B60;
+
+}
+.owner-name{
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+.owner-card2{
+    background-color: #003B60;
+    width: 250px;
+    height: 200px;
+    border-radius: 45px 0;
+    text-align: center;
+    padding: 20px;
+}
+.owner-details2{
+    margin-top: -60px;
+    color: #FFF;
+}
+.arrows{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 35px 0;
+}
+.arrow-left{
+    border: solid 1px #003B60;
+    border-radius: 100%;
+    padding: 7px;
+}
+.arrow-right{
+    background-color: #012A4A;
+    border: solid 1px #003B60;
+    border-radius: 100%;
+    padding: 7px;
+}
+/* jeans features section end */
