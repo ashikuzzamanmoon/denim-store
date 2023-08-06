@@ -47,7 +47,7 @@
 /* banner */
 .banner {
     display: flex;
-    /* gap: 280px; */
+    gap: 280px;
     margin-bottom: 70px;
 }
 
@@ -83,7 +83,6 @@
     font-weight: 550;
 }
 
-.banner-price {}
 
 .total-price-text {
     color: #012A4A;
@@ -214,7 +213,7 @@
     font-size: 40px;
     font-weight: 400;
     position: relative;
-    top: 740px;
+    top: 760px;
 }
 
 .denim-img-text h2 {
@@ -258,7 +257,7 @@
 
 .denim-img-btn {
     position: relative;
-    top: 760px;
+    top: 780px;
     margin: 0 auto;
 }
 
@@ -351,11 +350,12 @@
     width: 90%;
     border-radius: 100px 0;
     margin-top: -120px;
+    left: 120px;
 
 }
 
 .btns-on-jeans-img {
-    margin-top: -70px;
+    margin-top: -30px;
 }
 
 .ellipse {
@@ -457,7 +457,7 @@
 }
 .owner-card{
     width: 250px;
-    height: 200px;
+    height: 220px;
     background-color: #FFF;
     border-radius: 45px 0;
     text-align: center;
@@ -479,7 +479,7 @@
 .owner-card2{
     background-color: #003B60;
     width: 250px;
-    height: 200px;
+    height: 220px;
     border-radius: 45px 0;
     text-align: center;
     padding: 20px;
