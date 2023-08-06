@@ -5,14 +5,16 @@
 .header {
     background-image: url('../images/banner-bg.png');
     background-repeat: no-repeat;
-    width: auto;
+    width: 100%;
     height: auto;
+    /* padding-left: 120px; */
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
 }
 
 .nav-images {
@@ -37,12 +39,20 @@
 }
 
 /* banner */
+.banner {
+    display: flex;
+    /* gap: 280px; */
+    margin-bottom: 70px;
+}
+
 .banner-subtitle {
     background-color: #012A4A;
     color: #FFFFFF;
     width: 387px;
     height: 54px;
     border-radius: 25px 0;
+    margin-top: 70px;
+    margin-bottom: 25px;
 }
 
 .banner-subtitle p {
@@ -56,15 +66,15 @@
 
 .banner-title {
     width: 650px;
+    margin-bottom: 25px;
+
 }
 
 .banner-title p {
     color: #003B60;
     font-family: Li Niladri Rongtuli Unicode;
     font-size: 55px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 550;
 }
 
 .banner-price {}
@@ -74,26 +84,32 @@
     font-family: Li Ador Noirrit;
     font-size: 20px;
     font-weight: 400;
+
 }
-.banner-price-text{
+
+.banner-price-text {
     display: flex;
     gap: 5px;
     align-items: center;
 }
-.middle-mark{
+
+.middle-mark {
     color: #608AAB;
-font-family: Li Ador Noirrit;
-font-size: 20px;
-font-weight: 400;
-text-decoration: line-through;
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
 }
-.price-text{
+
+.price-text {
     color: #012A4A;
-font-family: Li Ador Noirrit;
-font-size: 50px;
-font-weight: 700;
+    font-family: Li Ador Noirrit;
+    font-size: 50px;
+    font-weight: 700;
+
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #F0E615;
     border: none;
     border-radius: 25px 0;
@@ -103,15 +119,132 @@ font-weight: 700;
     gap: 8px;
     padding: 10px 20px;
 }
-.btn-primary p{
+
+.banner-btn {
+    margin: 50px 0;
+}
+
+.btn-primary p {
     color: #092E67;
-font-family: Li Niladri Rongtuli Unicode;
-font-size: 20px;
-font-weight: 400;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 20px;
+    font-weight: 400;
 }
-.banner-price-description{
+
+.banner-price-description {
     color: #012A4A;
-font-family: Li Ador Noirrit;
-font-size: 25px;
-font-weight: 400;
+    font-family: Li Ador Noirrit;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 70px;
 }
+
+.blue-jeans-banner-img {
+    width: 663px;
+    height: 652px;
+}
+
+/* product details */
+.product-details {}
+
+.product-description {
+    margin: 0 150px;
+    color: #003B60;
+    font-family: Li Ador Noirrit;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.product-description-point {
+    width: 600px;
+    position: relative;
+    left: 630px;
+}
+
+.description-title {
+    color: #003B60;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.description-point-columns {
+    display: flex;
+    gap: 50px;
+}
+
+.description-point {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.description-point p {
+    color: #003B60;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+}
+.denim-img{
+    margin-top: -1000px;
+}
+.denim-img img {
+    width: 100%;
+}
+
+.denim-img h3 {
+    color: #FFF;
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Li Sheikh Hasina 2;
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top: 740px;
+}
+
+.denim-img-text h2 {
+    color: #F0E615;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 40px;
+}
+.jeans-size{
+    position: relative;
+    left: 620px;
+    top: 400px;
+}
+.frame-images{
+    display: flex;
+    gap: 25px;
+}
+.frame-img {
+    width: 99px;
+    height: 101px;
+}
+
+.waist-size {
+    color: #012A4A;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 44px;
+    position: relative;
+    bottom: 84px;
+    left: 13px;
+}
+
+.jeans-pile-img {
+    width: 400px;
+    height: 700px;
+    position: relative;
+    top: 700px;
+    left: 150px;
+}
+
+.denim-img-btn {
+    position: relative;
+    top: 760px;
+    margin: 0 auto;
+}
+/* product details end */
